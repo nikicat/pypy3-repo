@@ -1,0 +1,156 @@
+Package: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 36791
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta1-1~ppa1+nbryskin4), libbz2-1.0, libc6 (>= 2.15), libexpat1 (>= 1.95.8), libffi6 (>= 3.0.4), libncurses5 (>= 5.5-5~), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.1.4)
+Suggests: pypy3-doc, pypy3-tk (= 2.1-beta1-1~ppa1+nbryskin4)
+Breaks: pypy3-dev (<< 2.1-beta1-1~ppa1+nbryskin4)
+Filename: ./pypy3_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+Size: 5830120
+MD5sum: dd8ddcb7b44ccc248a3c47e009c1734a
+SHA1: dd446b3bda26d7e322f73a19077d8ac166b4d498
+SHA256: c4baaf2a7518dc9a52b2ac3c142034859165fbb9e2cc689c6059a94220838dfe
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: fast alternative implementation of Python - PyPy interpreter
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2). It has several advantages and distinct features:
+  * Speed: thanks to its Just-in-Time compiler (on x86), Python programs often
+    run faster on PyPy.
+  * Memory usage: large, memory-hungry Python programs might end up taking less
+    space than they do in CPython.
+  * Compatibility: PyPy is highly compatible with existing Python code.
+    It supports ctypes and can run popular Python libraries like twisted and
+    django.
+  * Stackless: PyPy supports stackless mode on x86, providing
+    micro-threads for massive concurrency.
+ .
+ This package contains the PyPy interpreter.
+
+Package: pypy3-dev
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 132
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3 (>= 2.1-beta1-1~ppa1+nbryskin4)
+Filename: ./pypy3-dev_2.1-beta1-1~ppa1+nbryskin4_all.deb
+Size: 32178
+MD5sum: f277a7ec4613a98f47d3d832d32bf29d
+SHA1: af13b75b9633974027b748a90093c6ded70c7dd6
+SHA256: de6fdabd272c8dfc774a4483252f45fbcdddc9fdba7c30309c3548057d894fe9
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: header files for PyPy (an alternative Python interpreter)
+ Header files for compiling cpython C extension modules for use with PyPy.
+ Note that pure Python modules will probably perform better.
+ .
+ PyPy supports a subset of cpython's C API through its CPyExt subsystem.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: pypy3-lib
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 11346
+Pre-Depends: dpkg (>= 1.15.6~)
+Provides: pypy3-cffi
+Filename: ./pypy3-lib_2.1-beta1-1~ppa1+nbryskin4_all.deb
+Size: 2047368
+MD5sum: 841ca16b151682a992d0e801a36e00f7
+SHA1: 542be0a68ae7d7be5f40ca6c55346b66f89adce6
+SHA256: 542170c0b16bb5ef4dfcd566e93202a972d0a85a21384e83dc37ef1bde5cfef2
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: standard library for PyPy (an alternative Python interpreter)
+ The PyPy standard library. This is a combination of modules, copied directly
+ from cpython, modified cpython modules, and modules entirely re-implemented
+ (usually in pure Python, where they are C extensions in cpython).
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: pypy3-lib-testsuite
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 25940
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta1-1~ppa1+nbryskin4)
+Replaces: pypy3-lib (<< 2.2)
+Filename: ./pypy3-lib-testsuite_2.1-beta1-1~ppa1+nbryskin4_all.deb
+Size: 3549264
+MD5sum: 2841aa310039b00f59141ceaa759b988
+SHA1: e141b24180df5ba86e62c88758d5018118695202
+SHA256: a1f1878b0408ff74f67e7001e8b8f5918cb93dd100ab157d95050b32a8eebb85
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: standard library test suite for PyPy (an alternative Python interpreter)
+ The complete test suite for the PyPy standard library.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: pypy3-tk
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 122
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libc6 (>= 2.2.5), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0), pypy3 (= 2.1-beta1-1~ppa1+nbryskin4)
+Replaces: pypy3-lib (<< 2.2)
+Filename: ./pypy3-tk_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+Size: 24828
+MD5sum: 0b5992326819b41e4b2009eb1ba506d8
+SHA1: 92f21ad5342995e5f3c22e522b017e89572b4cf0
+SHA256: e6a843bba6ec088db15e086ded3062615ac0d7b4867d145f296d6be06015e1b1
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: Tkinter module for PyPy (an alternative Python interpreter)
+ A module for writing portable GUI applications with PyPy using Tk.
+ Also known as Tkinter.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: python-pypy3.sandbox
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 19067
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta1-1~ppa1+nbryskin4), libc6 (>= 2.14)
+Suggests: python-py
+Breaks: python-pypy3.translator.sandbox (<< 2.0~beta2+hg61648)
+Replaces: python-pypy3.translator.sandbox (<< 2.0~beta2+hg61648)
+Filename: ./python-pypy3.sandbox_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+Size: 3327278
+MD5sum: bb4eb811b3d78e70d189106ff5c66dff
+SHA1: d5043147ff3074891fac6718f044a275d7b4957c
+SHA256: 1b44b27c81a465109193d0a61e067490d1bc267e30895458835ad6e40a3873ab
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: sandboxed PyPy interpreter
+ A version of PyPy that runs fully "virtualized", where an external process
+ controls all input/output. This is a secure sandbox, it is safe to run any
+ untrusted Python code with it. The Python code cannot see or modify any local
+ file except via interaction with the external process.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
