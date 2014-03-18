@@ -8,7 +8,6 @@ Usage
 
 ```
 apt-add-repository 'deb http://nikicat.github.io/pypy3-repo ./'
-curl http://nikicat.github.io/pypy3-repo/REPO.asc | apt-key add -
 apt-get update
-apt-get install pypy3 -y
+apt-get install pypy3 -y --force-yes
 ```
