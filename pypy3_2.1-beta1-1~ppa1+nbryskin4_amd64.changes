@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 19 Dec 2013 12:38:01 +0000
+Source: pypy3
+Binary: pypy3 pypy3-tk python-pypy3.sandbox pypy3-lib pypy3-lib-testsuite pypy3-dev
+Architecture: source amd64 all
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Distribution: precise
+Urgency: low
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Changed-By: Nikolay Bryskin <devel.niks@gmail.com>
+Description: 
+ pypy3      - fast alternative implementation of Python - PyPy interpreter
+ pypy3-dev  - header files for PyPy (an alternative Python interpreter)
+ pypy3-lib  - standard library for PyPy (an alternative Python interpreter)
+ pypy3-lib-testsuite - standard library test suite for PyPy (an alternative Python inter
+ pypy3-tk   - Tkinter module for PyPy (an alternative Python interpreter)
+ python-pypy3.sandbox - sandboxed PyPy interpreter
+Changes: 
+ pypy3 (2.1-beta1-1~ppa1+nbryskin4) precise; urgency=low
+ .
+   * Fixed post/preinst scripts again
+Checksums-Sha1: 
+ 67e7ce0e3a01db00385094205381e3ed959711b7 1802 pypy3_2.1-beta1-1~ppa1+nbryskin4.dsc
+ c313dce0e3ffdb3643a04abd86640d9063dbb141 72089 pypy3_2.1-beta1-1~ppa1+nbryskin4.debian.tar.gz
+ dd446b3bda26d7e322f73a19077d8ac166b4d498 5830120 pypy3_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ 92f21ad5342995e5f3c22e522b017e89572b4cf0 24828 pypy3-tk_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ d5043147ff3074891fac6718f044a275d7b4957c 3327278 python-pypy3.sandbox_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ 542be0a68ae7d7be5f40ca6c55346b66f89adce6 2047368 pypy3-lib_2.1-beta1-1~ppa1+nbryskin4_all.deb
+ e141b24180df5ba86e62c88758d5018118695202 3549264 pypy3-lib-testsuite_2.1-beta1-1~ppa1+nbryskin4_all.deb
+ af13b75b9633974027b748a90093c6ded70c7dd6 32178 pypy3-dev_2.1-beta1-1~ppa1+nbryskin4_all.deb
+Checksums-Sha256: 
+ 34757fc0fc87debd19e71a17ed18be7d95ec66b14e7c2a9895752b0d1d3b7afa 1802 pypy3_2.1-beta1-1~ppa1+nbryskin4.dsc
+ e8a915a6d21365213ccf697d17a1b8414c934b55d8ea5bafddbd132f81a8dc5f 72089 pypy3_2.1-beta1-1~ppa1+nbryskin4.debian.tar.gz
+ c4baaf2a7518dc9a52b2ac3c142034859165fbb9e2cc689c6059a94220838dfe 5830120 pypy3_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ e6a843bba6ec088db15e086ded3062615ac0d7b4867d145f296d6be06015e1b1 24828 pypy3-tk_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ 1b44b27c81a465109193d0a61e067490d1bc267e30895458835ad6e40a3873ab 3327278 python-pypy3.sandbox_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ 542170c0b16bb5ef4dfcd566e93202a972d0a85a21384e83dc37ef1bde5cfef2 2047368 pypy3-lib_2.1-beta1-1~ppa1+nbryskin4_all.deb
+ a1f1878b0408ff74f67e7001e8b8f5918cb93dd100ab157d95050b32a8eebb85 3549264 pypy3-lib-testsuite_2.1-beta1-1~ppa1+nbryskin4_all.deb
+ de6fdabd272c8dfc774a4483252f45fbcdddc9fdba7c30309c3548057d894fe9 32178 pypy3-dev_2.1-beta1-1~ppa1+nbryskin4_all.deb
+Files: 
+ 9ece7fc6b96ade6af1dc7a8d4473c1dd 1802 python extra pypy3_2.1-beta1-1~ppa1+nbryskin4.dsc
+ e610896de20718b7b03d9dfe26de5be4 72089 python extra pypy3_2.1-beta1-1~ppa1+nbryskin4.debian.tar.gz
+ dd8ddcb7b44ccc248a3c47e009c1734a 5830120 python extra pypy3_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ 0b5992326819b41e4b2009eb1ba506d8 24828 python extra pypy3-tk_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ bb4eb811b3d78e70d189106ff5c66dff 3327278 python extra python-pypy3.sandbox_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+ 841ca16b151682a992d0e801a36e00f7 2047368 python extra pypy3-lib_2.1-beta1-1~ppa1+nbryskin4_all.deb
+ 2841aa310039b00f59141ceaa759b988 3549264 python extra pypy3-lib-testsuite_2.1-beta1-1~ppa1+nbryskin4_all.deb
+ f277a7ec4613a98f47d3d832d32bf29d 32178 python extra pypy3-dev_2.1-beta1-1~ppa1+nbryskin4_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlMoZS4ACgkQi4k4hipfd5rLSwCdGm8wBx3UCq1plu8FzO/MoxIK
+IEUAn3KLV4lMLYHsn1YgKkl7xyZj8IEZ
+=nTHT
+-----END PGP SIGNATURE-----
