@@ -1,3 +1,3 @@
 #! /bin/bash
-dpkg-scanpackages . > Packages
+dpkg-scanpackages -m . > Packages
 dpkg-scansources . > Sources
