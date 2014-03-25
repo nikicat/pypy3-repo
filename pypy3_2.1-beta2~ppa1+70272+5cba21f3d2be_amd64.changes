@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Tue, 25 Mar 2014 18:54:24 +0400
+Source: pypy3
+Binary: pypy3 pypy3-tk python-pypy3.sandbox pypy3-lib pypy3-lib-testsuite pypy3-dev
+Architecture: source amd64 all
+Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
+Distribution: precise
+Urgency: low
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Changed-By: "Nikolay Bryskin" <devel.niks@gmail.com>
+Description: 
+ pypy3      - fast alternative implementation of Python - PyPy interpreter
+ pypy3-dev  - header files for PyPy (an alternative Python interpreter)
+ pypy3-lib  - standard library for PyPy (an alternative Python interpreter)
+ pypy3-lib-testsuite - standard library test suite for PyPy (an alternative Python inter
+ pypy3-tk   - Tkinter module for PyPy (an alternative Python interpreter)
+ python-pypy3.sandbox - sandboxed PyPy interpreter
+Changes: 
+ pypy3 (2.1-beta2~ppa1+70272+5cba21f3d2be) precise; urgency=low
+ .
+   * Rebuild from hg
+Checksums-Sha1: 
+ 4dc37decf60bd252a4d39987d12aed07a5c3554c 1563 pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be.dsc
+ 56cd8190c53b172ce2caabb8d8f374f79147467e 22421362 pypy3_2.1.orig.tar.gz
+ e3444d69c62afbfe9ff434bb21eaab4f5f23cd0c 71542 pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be.debian.tar.gz
+ 144b464b3d67d3bd6fa798930b8b889b00546782 6373762 pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ 7a088d51d6bd83afc9a3abeea85746f06c960287 25704 pypy3-tk_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ fbbb6d90cb52074b73939836f832b7383006104c 3063838 python-pypy3.sandbox_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ 780f7cd3eac979cc5ced08bd872f9771d86a1924 2025192 pypy3-lib_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+ 2db354b2080fda229dc7801ae66351277693b4b3 3752722 pypy3-lib-testsuite_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+ 2807e99d27f1c6d527d91fa979e74833be407f14 36622 pypy3-dev_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+Checksums-Sha256: 
+ 6321349efbbe2f72192a1082f857f995b00fd886dc28746f10d910329b2afeea 1563 pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be.dsc
+ 1feca61f3016c7170161faf92ce4b68de17e22b111275c6ad1c51226a1b6ee92 22421362 pypy3_2.1.orig.tar.gz
+ c79840387481f2b10cd14b8658fb5e59e611f2711c599a36c358a4f35bdf4c11 71542 pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be.debian.tar.gz
+ e47aed179b2c47b2fcb772f1bab2bf47b33977b0c0229b495cfdc4bdcf961519 6373762 pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ aaac36fac65d73b816058dfb051d876c82285d4c9c79a3d95a490be5ddc49970 25704 pypy3-tk_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ 21a850f26896b1a624b12ef613fd2be3795673b5cd31b907b4d6ed0970f06711 3063838 python-pypy3.sandbox_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ d1377e67994b3685341e5f120e68abcc7a18b6274c8c1aec4260241d4540e113 2025192 pypy3-lib_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+ 0e6a921f823dbb36aa6e4ec1092c0f0e84cfa859f59297f9ddd016ea887a5121 3752722 pypy3-lib-testsuite_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+ ad7431ecf6792eb7aa447332ae0f5049284159f8f9f5f0041a75c329a9af746a 36622 pypy3-dev_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+Files: 
+ 4d2a2dce0e4d0f876610b9ed5d794022 1563 python extra pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be.dsc
+ 5635f87218b295f5449cc0c377182fef 22421362 python extra pypy3_2.1.orig.tar.gz
+ 4212682e735eb9c036c9f0dc7dd7e290 71542 python extra pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be.debian.tar.gz
+ 25fba7f931963d2371a700dd368d3e19 6373762 python extra pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ 30ff11977e832a7331a283b95c4c6747 25704 python extra pypy3-tk_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ 6a1f28f7ecd023b97422faae81277316 3063838 python extra python-pypy3.sandbox_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+ 1ea46e9da1fc8dd6d5cd6b99cd03d064 2025192 python extra pypy3-lib_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+ 0eff33a15f80791c547834e490c4f949 3752722 python extra pypy3-lib-testsuite_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+ dd155a437badddd2be986b42c426a877 36622 python extra pypy3-dev_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
