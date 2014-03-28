@@ -1,36 +1,4 @@
 Package: pypy3
-Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
-Architecture: amd64
-Maintainer: Stefano Rivera <stefanor@debian.org>
-Installed-Size: 40435
-Pre-Depends: dpkg (>= 1.15.6~)
-Depends: pypy3-lib (= 2.1-beta2~ppa1+70272+5cba21f3d2be), libbz2-1.0, libc6 (>= 2.15), libexpat1 (>= 1.95.8), libffi6 (>= 3.0.4), libncurses5 (>= 5.5-5~), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.1.4)
-Suggests: pypy3-doc, pypy3-tk (= 2.1-beta2~ppa1+70272+5cba21f3d2be)
-Breaks: pypy3-dev (<< 2.1-beta2~ppa1+70272+5cba21f3d2be)
-Filename: ./pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
-Size: 6373762
-MD5sum: 25fba7f931963d2371a700dd368d3e19
-SHA1: 144b464b3d67d3bd6fa798930b8b889b00546782
-SHA256: e47aed179b2c47b2fcb772f1bab2bf47b33977b0c0229b495cfdc4bdcf961519
-Section: python
-Priority: extra
-Homepage: http://pypy.org/
-Description: fast alternative implementation of Python - PyPy interpreter
- PyPy is a fast, compliant alternative implementation of the Python language
- (3.2). It has several advantages and distinct features:
-  * Speed: thanks to its Just-in-Time compiler (on x86), Python programs often
-    run faster on PyPy.
-  * Memory usage: large, memory-hungry Python programs might end up taking less
-    space than they do in CPython.
-  * Compatibility: PyPy is highly compatible with existing Python code.
-    It supports ctypes and can run popular Python libraries like twisted and
-    django.
-  * Stackless: PyPy supports stackless mode on x86, providing
-    micro-threads for massive concurrency.
- .
- This package contains the PyPy interpreter.
-
-Package: pypy3
 Version: 2.1-beta1-1~ppa1+nbryskin4
 Architecture: amd64
 Maintainer: Stefano Rivera <stefanor@debian.org>
@@ -62,6 +30,95 @@ Description: fast alternative implementation of Python - PyPy interpreter
  .
  This package contains the PyPy interpreter.
 
+Package: pypy3
+Version: 2.1-beta2-1~ppa1+70272+5cba21f3d2be
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 40561
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta2-1~ppa1+70272+5cba21f3d2be), libbz2-1.0, libc6 (>= 2.15), libexpat1 (>= 1.95.8), libffi6 (>= 3.0.4), libncurses5 (>= 5.5-5~), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.1.4)
+Suggests: pypy3-doc, pypy3-tk (= 2.1-beta2-1~ppa1+70272+5cba21f3d2be)
+Breaks: pypy3-dev (<< 2.1-beta2-1~ppa1+70272+5cba21f3d2be)
+Filename: ./pypy3_2.1-beta2-1~ppa1+70272+5cba21f3d2be_amd64.deb
+Size: 6414038
+MD5sum: 8049b5076dcaf364bb8d878afa2dc579
+SHA1: cb21c32261c1c9eaee13a170acc66e2b02b0dbd6
+SHA256: 3f09298729bb85f44bc807cfbed5811c91be2d0966e2c13491f0771e691665e4
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: fast alternative implementation of Python - PyPy interpreter
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2). It has several advantages and distinct features:
+  * Speed: thanks to its Just-in-Time compiler (on x86), Python programs often
+    run faster on PyPy.
+  * Memory usage: large, memory-hungry Python programs might end up taking less
+    space than they do in CPython.
+  * Compatibility: PyPy is highly compatible with existing Python code.
+    It supports ctypes and can run popular Python libraries like twisted and
+    django.
+  * Stackless: PyPy supports stackless mode on x86, providing
+    micro-threads for massive concurrency.
+ .
+ This package contains the PyPy interpreter.
+
+Package: pypy3
+Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 40435
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta2~ppa1+70272+5cba21f3d2be), libbz2-1.0, libc6 (>= 2.15), libexpat1 (>= 1.95.8), libffi6 (>= 3.0.4), libncurses5 (>= 5.5-5~), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.1.4)
+Suggests: pypy3-doc, pypy3-tk (= 2.1-beta2~ppa1+70272+5cba21f3d2be)
+Breaks: pypy3-dev (<< 2.1-beta2~ppa1+70272+5cba21f3d2be)
+Filename: ./pypy3_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+Size: 6373762
+MD5sum: 25fba7f931963d2371a700dd368d3e19
+SHA1: 144b464b3d67d3bd6fa798930b8b889b00546782
+SHA256: e47aed179b2c47b2fcb772f1bab2bf47b33977b0c0229b495cfdc4bdcf961519
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: fast alternative implementation of Python - PyPy interpreter
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2). It has several advantages and distinct features:
+  * Speed: thanks to its Just-in-Time compiler (on x86), Python programs often
+    run faster on PyPy.
+  * Memory usage: large, memory-hungry Python programs might end up taking less
+    space than they do in CPython.
+  * Compatibility: PyPy is highly compatible with existing Python code.
+    It supports ctypes and can run popular Python libraries like twisted and
+    django.
+  * Stackless: PyPy supports stackless mode on x86, providing
+    micro-threads for massive concurrency.
+ .
+ This package contains the PyPy interpreter.
+
+Package: pypy3-dev
+Source: pypy3
+Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 157
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3 (>= 2.1-beta2~ppa1+70272+5cba21f3d2be)
+Filename: ./pypy3-dev_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
+Size: 36622
+MD5sum: dd155a437badddd2be986b42c426a877
+SHA1: 2807e99d27f1c6d527d91fa979e74833be407f14
+SHA256: ad7431ecf6792eb7aa447332ae0f5049284159f8f9f5f0041a75c329a9af746a
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: header files for PyPy (an alternative Python interpreter)
+ Header files for compiling cpython C extension modules for use with PyPy.
+ Note that pure Python modules will probably perform better.
+ .
+ PyPy supports a subset of cpython's C API through its CPyExt subsystem.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
 Package: pypy3-dev
 Source: pypy3
 Version: 2.1-beta1-1~ppa1+nbryskin4
@@ -89,17 +146,17 @@ Description: header files for PyPy (an alternative Python interpreter)
 
 Package: pypy3-dev
 Source: pypy3
-Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
+Version: 2.1-beta2-1~ppa1+70272+5cba21f3d2be
 Architecture: all
 Maintainer: Stefano Rivera <stefanor@debian.org>
 Installed-Size: 157
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: pypy3 (>= 2.1-beta2~ppa1+70272+5cba21f3d2be)
-Filename: ./pypy3-dev_2.1-beta2~ppa1+70272+5cba21f3d2be_all.deb
-Size: 36622
-MD5sum: dd155a437badddd2be986b42c426a877
-SHA1: 2807e99d27f1c6d527d91fa979e74833be407f14
-SHA256: ad7431ecf6792eb7aa447332ae0f5049284159f8f9f5f0041a75c329a9af746a
+Depends: pypy3 (>= 2.1-beta2-1~ppa1+70272+5cba21f3d2be)
+Filename: ./pypy3-dev_2.1-beta2-1~ppa1+70272+5cba21f3d2be_all.deb
+Size: 36626
+MD5sum: cfdd469def141baf9cc57206f8b1aa29
+SHA1: c02a3ae7fb1398e2d6133d29d8ba318ac465b338
+SHA256: 6167e3b7749823eba442acc42639447cec58fc47707df16784aa45a957370a92
 Section: python
 Priority: extra
 Homepage: http://pypy.org/
@@ -114,17 +171,17 @@ Description: header files for PyPy (an alternative Python interpreter)
 
 Package: pypy3-lib
 Source: pypy3
-Version: 2.1-beta1-1~ppa1+nbryskin4
+Version: 2.1-beta2-1~ppa1+70272+5cba21f3d2be
 Architecture: all
 Maintainer: Stefano Rivera <stefanor@debian.org>
-Installed-Size: 11346
+Installed-Size: 11237
 Pre-Depends: dpkg (>= 1.15.6~)
 Provides: pypy3-cffi
-Filename: ./pypy3-lib_2.1-beta1-1~ppa1+nbryskin4_all.deb
-Size: 2047368
-MD5sum: 841ca16b151682a992d0e801a36e00f7
-SHA1: 542be0a68ae7d7be5f40ca6c55346b66f89adce6
-SHA256: 542170c0b16bb5ef4dfcd566e93202a972d0a85a21384e83dc37ef1bde5cfef2
+Filename: ./pypy3-lib_2.1-beta2-1~ppa1+70272+5cba21f3d2be_all.deb
+Size: 2025266
+MD5sum: 483c153ecdfd9a59e456333332f3d1f2
+SHA1: 74d37c7153543cd270ffb6036436674ff911a72c
+SHA256: 9a60b598dd11207b57b2bf39c8e2fecd9f91103800c9164136010d3ed76af5b4
 Section: python
 Priority: extra
 Homepage: http://pypy.org/
@@ -156,6 +213,53 @@ Description: standard library for PyPy (an alternative Python interpreter)
  The PyPy standard library. This is a combination of modules, copied directly
  from cpython, modified cpython modules, and modules entirely re-implemented
  (usually in pure Python, where they are C extensions in cpython).
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: pypy3-lib
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 11346
+Pre-Depends: dpkg (>= 1.15.6~)
+Provides: pypy3-cffi
+Filename: ./pypy3-lib_2.1-beta1-1~ppa1+nbryskin4_all.deb
+Size: 2047368
+MD5sum: 841ca16b151682a992d0e801a36e00f7
+SHA1: 542be0a68ae7d7be5f40ca6c55346b66f89adce6
+SHA256: 542170c0b16bb5ef4dfcd566e93202a972d0a85a21384e83dc37ef1bde5cfef2
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: standard library for PyPy (an alternative Python interpreter)
+ The PyPy standard library. This is a combination of modules, copied directly
+ from cpython, modified cpython modules, and modules entirely re-implemented
+ (usually in pure Python, where they are C extensions in cpython).
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: pypy3-lib-testsuite
+Source: pypy3
+Version: 2.1-beta2-1~ppa1+70272+5cba21f3d2be
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 26485
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta2-1~ppa1+70272+5cba21f3d2be)
+Replaces: pypy3-lib (<< 2.2)
+Filename: ./pypy3-lib-testsuite_2.1-beta2-1~ppa1+70272+5cba21f3d2be_all.deb
+Size: 3752866
+MD5sum: 724435e8fcf345fdc05f2dc6cc53ad25
+SHA1: bcd2d0681ecd1f2dcc7d93e1b86f68340d72fc6f
+SHA256: aa103c9eadf583b2934f20e20ce02e5891c6b1e64c06883483eca082e3c1c219
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: standard library test suite for PyPy (an alternative Python interpreter)
+ The complete test suite for the PyPy standard library.
  .
  PyPy is a fast, compliant alternative implementation of the Python language
  (3.2).
@@ -208,18 +312,18 @@ Description: standard library test suite for PyPy (an alternative Python interpr
 
 Package: pypy3-tk
 Source: pypy3
-Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
+Version: 2.1-beta2-1~ppa1+70272+5cba21f3d2be
 Architecture: amd64
 Maintainer: Stefano Rivera <stefanor@debian.org>
 Installed-Size: 126
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libc6 (>= 2.2.5), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0), pypy3 (= 2.1-beta2~ppa1+70272+5cba21f3d2be)
+Depends: libc6 (>= 2.2.5), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0), pypy3 (= 2.1-beta2-1~ppa1+70272+5cba21f3d2be)
 Replaces: pypy3-lib (<< 2.2)
-Filename: ./pypy3-tk_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
-Size: 25704
-MD5sum: 30ff11977e832a7331a283b95c4c6747
-SHA1: 7a088d51d6bd83afc9a3abeea85746f06c960287
-SHA256: aaac36fac65d73b816058dfb051d876c82285d4c9c79a3d95a490be5ddc49970
+Filename: ./pypy3-tk_2.1-beta2-1~ppa1+70272+5cba21f3d2be_amd64.deb
+Size: 25678
+MD5sum: 23844c835b53d14b538d35f04a6941cc
+SHA1: 02280518189fddc12c77ca167a60d74dd518a744
+SHA256: cb2e5da9e70d8df7b01ae26a97d2d0e054371c3d36693575b0c2532d7811cf2e
 Section: python
 Priority: extra
 Homepage: http://pypy.org/
@@ -254,22 +358,46 @@ Description: Tkinter module for PyPy (an alternative Python interpreter)
  PyPy is a fast, compliant alternative implementation of the Python language
  (3.2).
 
-Package: python-pypy3.sandbox
+Package: pypy3-tk
 Source: pypy3
-Version: 2.1-beta1-1~ppa1+nbryskin4
+Version: 2.1-beta2~ppa1+70272+5cba21f3d2be
 Architecture: amd64
 Maintainer: Stefano Rivera <stefanor@debian.org>
-Installed-Size: 19067
+Installed-Size: 126
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: pypy3-lib (= 2.1-beta1-1~ppa1+nbryskin4), libc6 (>= 2.14)
+Depends: libc6 (>= 2.2.5), tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0), pypy3 (= 2.1-beta2~ppa1+70272+5cba21f3d2be)
+Replaces: pypy3-lib (<< 2.2)
+Filename: ./pypy3-tk_2.1-beta2~ppa1+70272+5cba21f3d2be_amd64.deb
+Size: 25704
+MD5sum: 30ff11977e832a7331a283b95c4c6747
+SHA1: 7a088d51d6bd83afc9a3abeea85746f06c960287
+SHA256: aaac36fac65d73b816058dfb051d876c82285d4c9c79a3d95a490be5ddc49970
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: Tkinter module for PyPy (an alternative Python interpreter)
+ A module for writing portable GUI applications with PyPy using Tk.
+ Also known as Tkinter.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: python-pypy3.sandbox
+Source: pypy3
+Version: 2.1-beta2-1~ppa1+70272+5cba21f3d2be
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 17369
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta2-1~ppa1+70272+5cba21f3d2be), libc6 (>= 2.14)
 Suggests: python-py
 Breaks: python-pypy3.translator.sandbox (<< 2.0~beta2+hg61648)
 Replaces: python-pypy3.translator.sandbox (<< 2.0~beta2+hg61648)
-Filename: ./python-pypy3.sandbox_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
-Size: 3327278
-MD5sum: bb4eb811b3d78e70d189106ff5c66dff
-SHA1: d5043147ff3074891fac6718f044a275d7b4957c
-SHA256: 1b44b27c81a465109193d0a61e067490d1bc267e30895458835ad6e40a3873ab
+Filename: ./python-pypy3.sandbox_2.1-beta2-1~ppa1+70272+5cba21f3d2be_amd64.deb
+Size: 3066298
+MD5sum: c937caac8f5e8640a8ffec796da1ba1d
+SHA1: cf6a9e036142c05372475c1f5264285a62862a8b
+SHA256: 31bb6fc4d3f432e228372c010773f2839dd2c4e5e6c1eacaf9860ffdc7679ad7
 Section: python
 Priority: extra
 Homepage: http://pypy.org/
@@ -298,6 +426,34 @@ Size: 3063838
 MD5sum: 6a1f28f7ecd023b97422faae81277316
 SHA1: fbbb6d90cb52074b73939836f832b7383006104c
 SHA256: 21a850f26896b1a624b12ef613fd2be3795673b5cd31b907b4d6ed0970f06711
+Section: python
+Priority: extra
+Homepage: http://pypy.org/
+Description: sandboxed PyPy interpreter
+ A version of PyPy that runs fully "virtualized", where an external process
+ controls all input/output. This is a secure sandbox, it is safe to run any
+ untrusted Python code with it. The Python code cannot see or modify any local
+ file except via interaction with the external process.
+ .
+ PyPy is a fast, compliant alternative implementation of the Python language
+ (3.2).
+
+Package: python-pypy3.sandbox
+Source: pypy3
+Version: 2.1-beta1-1~ppa1+nbryskin4
+Architecture: amd64
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 19067
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: pypy3-lib (= 2.1-beta1-1~ppa1+nbryskin4), libc6 (>= 2.14)
+Suggests: python-py
+Breaks: python-pypy3.translator.sandbox (<< 2.0~beta2+hg61648)
+Replaces: python-pypy3.translator.sandbox (<< 2.0~beta2+hg61648)
+Filename: ./python-pypy3.sandbox_2.1-beta1-1~ppa1+nbryskin4_amd64.deb
+Size: 3327278
+MD5sum: bb4eb811b3d78e70d189106ff5c66dff
+SHA1: d5043147ff3074891fac6718f044a275d7b4957c
+SHA256: 1b44b27c81a465109193d0a61e067490d1bc267e30895458835ad6e40a3873ab
 Section: python
 Priority: extra
 Homepage: http://pypy.org/
